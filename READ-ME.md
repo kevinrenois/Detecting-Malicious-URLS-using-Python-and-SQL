@@ -1,6 +1,6 @@
-# CAPSTONE PROJECT - Detecting Malicious URLS using Python and SQL
+# Detecting Malicious URLS using Python and SQL
 
-#### Kevin Renois DSI-R-824
+#### Kevin Renois
 
 
 ---
