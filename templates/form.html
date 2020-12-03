@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <div class = 'w-100 h-100 p-5 mx-auto text-white' style="background-color:#343AEF"></div?
+	<title>Malicious URL Predictor</title>
+</head>
+<body>
+	<form action="/check">
+		<p>
+			<label for="url">Enter a URL without a protocol (https://) or domain prefix (www.)</label><br>
+			<input type="text" name="url">
+		</p>		
+		<p><button type="check">Predict</button></p>
+	</form>
+</body>
+</html>
+
+{% endblock %}
