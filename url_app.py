@@ -9,7 +9,7 @@ from sqlalchemy import create_engine
 # Set up the engine to access SQL data.
 
 # 'driver://username:password@host:port/database'
-engine = create_engine('postgres://postgres:kor@localhost:5432/capstone_urls')
+engine = create_engine('postgres://postgres:***@localhost:5432/capstone_urls')
 
 
 # initialize the flask app
