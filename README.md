@@ -12,7 +12,7 @@ My Goal is to create a model that can make these distinctions and to deploy that
 
 ## Executive Summary
 
-I successfully created a tool that uses SQL to query a database of labled URLs do determine if a user's input is known to be malicious or benign. If the user's input is not in the database, the tool then uses the predictive model I built to classify the url as probably being malicious or probably being benign. 
+I successfully created a tool that uses SQL to query a database of labled URLs to determine if a user's input is known to be malicious or benign. If the user's input is not in the database, the tool then uses the predictive model I built in Python to classify the url as probably being malicious or probably being benign. 
 
 the model I created was primarily NLP based and it tested with 98% accuracy score. I wanted to be sure to create a model that minimzes false negatives, and it seems that the model did well in that regard as it scored a 98% in sensitivity (recall).
 
